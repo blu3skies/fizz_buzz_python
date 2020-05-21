@@ -1,2 +1,6 @@
 for i in range(0, 50):
-  print(i)
+  if i % 3 == 0:
+    print("fizz")
+  else: 
+    print(i)
+
